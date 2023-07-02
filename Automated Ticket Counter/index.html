@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Automated Ticket Counter</title>
+</head>
+<body>
+    <div class="counter">
+        <h2>Automated Ticket Counter :</h2>
+        <label for="inputAge">Enter your Age: </label>
+        <input type="text" id="inputAge" placeholder="Enter Age"><br><br>
+
+        <p>Are you accompained by an adult (age < 16 yrs):</p>
+        <br>
+        <input type="radio" name="accAdult" value="yes" id="radio1">
+        <label for="radio1">Yes</label>
+        <input type="radio" name="accAdult" value="no" id="radio2">
+        <label for="radio2">No</label>
+        <br><br>
+        <button onclick="checkEntry()">Check Entry</button><br><br>
+        <h2 id="entry" style="color: red;"></h2>
+    </div>
+</body>
+</html>
